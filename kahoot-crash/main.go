@@ -11,7 +11,7 @@ import (
 
 func main() {
 	if len(os.Args) != 3 {
-		fmt.Fprintln(os.Stderr, "Usage: crash <game pin> <nickname>")
+		fmt.Fprintln(os.Stderr, "Usage: crash <9888751> <Enea & Alicia>")
 		os.Exit(1)
 	}
 	gamePin := os.Args[1]
